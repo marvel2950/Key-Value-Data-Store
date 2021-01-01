@@ -13,9 +13,9 @@
 <h2>Accessing DataStore CRD operations as a library</h2>
 <h3>
 1. A class named DataStore in the file __init__.py contains all the CRD operations.<br>
-2. A class function DataStore(<file_path>).create(<key>,<value>, <time_to_live>) can be used to create a data in DataStore.<br>
-3. A class function DataStore(<file_path>).read(<key>) can be used to read a data from the DataStore.<br>
-4. A class function DataStore(<file_path>).delete(<key>) can be used to delete a data from the DataStore.<br>
+2. A class function DataStore(file_path).create(key,value, time_to_live) can be used to create a data in DataStore.<br>
+3. A class function DataStore(file_path).read(key) can be used to read a data from the DataStore.<br>
+4. A class function DataStore(file_path).delete(key) can be used to delete a data from the DataStore.<br>
 </h3>
 <br>
 <h2>Functional requirements</h2>
